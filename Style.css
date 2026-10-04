@@ -55,3 +55,27 @@ footer {
     padding: 3rem;
     color: white;
 }
+
+footer section a {
+    float: right;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #09e5ed;
+    decoration: none;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition:box-shadow 0.3s ease;
+}
+
+.link {
+    margin-right: 15px;
+}
